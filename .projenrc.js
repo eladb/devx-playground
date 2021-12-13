@@ -1,6 +1,6 @@
 const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '1.129.0',
+  cdkVersion: '2.1.0',
   defaultReleaseBranch: 'main',
   name: 'devx-playground',
 
